@@ -28,3 +28,9 @@ flatpak install com.bitwarden.desktop io.freetubeapp.FreeTube io.gitlab.librewol
 
 # Enabling systemd-resolved service
 sudo systemctl enable systemd-resolved.service
+
+# Configuring clamav
+sudo systemctl stop clamav-freshclam.service
+clamtk
+sudo clamtk
+sudo freshclam

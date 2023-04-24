@@ -14,11 +14,13 @@ sudo ufw allow http
 sudo ufw enable
 sudo systemctl enable ufw.service --now
 
+# Installing aptitude
+sudo apt install aptitude
+
 # Remove unwanted software
 sudo aptitude purge parole atril exfalso libreoffice-common libreoffice-core
 
 # Installing preferred software
-sudo apt install aptitude
 sudo aptitude install vlc vim neofetch htop clamav clamtk i3 i3blocks flatpak gedit okular parcellite flameshot chromium
 
 # Adding flathub repository and installing flatpaks

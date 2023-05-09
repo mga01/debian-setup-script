@@ -21,7 +21,7 @@ sudo apt install aptitude
 sudo aptitude purge parole atril exfalso libreoffice-common libreoffice-core
 
 # Installing preferred software
-sudo aptitude install vlc vim neofetch htop clamav clamtk i3 i3blocks flatpak gedit okular parcellite flameshot chromium macchanger
+sudo aptitude install vlc vim neofetch htop clamav clamtk i3 i3blocks flatpak gedit okular parcellite flameshot chromium macchanger ncal -y
 
 # Adding flathub repository and installing flatpaks
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
